@@ -2,6 +2,43 @@
 ---
 
 /*
+ * Global Color Override (Red → Blue Theme)
+ * ✅ This will override ALL red academic colors into blue
+ */
+
+$primary-color: #1e3a8a !default;     // 主藍（深藍）
+$secondary-color: #3b82f6 !default;   // 次藍（亮藍）
+$link-color: #2563eb !default;        // 連結藍
+$link-color-hover: #1d4ed8 !default;  // Hover 藍
+$background-color: #0f172a !default;  // 背景深藍
+$text-color: #e5e7eb !default;        // 文字亮灰
+$border-color: #1e40af !default;      // 藍色邊線
+
+/*
+ * ✅ Mountain Hero / Banner Background Blue Gradient
+ */
+
+$hero-gradient-start: #0f172a !default;
+$hero-gradient-end: #1e3a8a !default;
+
+/*
+ * ✅ Sidebar Blue Theme
+ */
+
+$sidebar-bg-color: #0f172a !default;
+$sidebar-text-color: #e5e7eb !default;
+$sidebar-link-color: #60a5fa !default;
+$sidebar-link-hover-color: #93c5fd !default;
+
+/*
+ * ✅ Button Theme
+ */
+
+$button-bg-color: #2563eb !default;
+$button-text-color: #ffffff !default;
+$button-hover-bg-color: #1d4ed8 !default;
+
+/*
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
