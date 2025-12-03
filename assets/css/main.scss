@@ -222,31 +222,28 @@ $button-hover-bg-color: #1d4ed8 !default;
 }
 
 .circle {
+  border: none !important;
+  background: none !important;
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   margin: auto;
-  color: #111;
+  color: #111 !important;
 }
 
 .c85 {
-  background: conic-gradient(#e11d48 85%, #e5e5e5 0);
+  background: conic-gradient(#e11d48 85%, #e5e5e5 0) !important;
 }
 
 .c100 {
-  background: conic-gradient(#b91c1c 100%, #e5e5e5 0);
+  background: conic-gradient(#b91c1c 100%, #e5e5e5 0) !important;
 }
 
 .c25 {
-  background: conic-gradient(#9ca3af 25%, #e5e5e5 0);
+  background: conic-gradient(#9ca3af 25%, #e5e5e5 0) !important;
 }
-
-/* 百分比樣式 */
-.c85 { border-color: #e11d48; }
-.c100 { border-color: #b91c1c; }
-.c25 { border-color: #9ca3af; }
