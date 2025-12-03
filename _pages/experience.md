@@ -42,7 +42,7 @@ permalink: /experience/
   <div class="hobby-col">
     <h3>Hobbies</h3>
     <ul>
-      <li>🎾 Squash</li>
+      <li>🏸 Squash</li>
       <li>🎾 Tennis</li>
       <li>✈️ Travel</li>
       <li>🎿 Ski</li>
