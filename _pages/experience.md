@@ -3,6 +3,7 @@ layout: single
 title: ""
 permalink: /experience/
 ---
+
 <!-- ========== Education ========== -->
 <section class="education-section">
   <h2>Education</h2>
@@ -19,6 +20,7 @@ permalink: /experience/
     <div class="edu-date">Sept 2021 – June 2025</div>
   </div>
 </section>
+
 
 <!-- ========== Skills & Hobbies ========== -->
 <div class="skills-hobby-grid">
@@ -44,26 +46,27 @@ permalink: /experience/
 
 </div>
 
+
 <!-- ========== Languages ========== -->
-<h2>Languages</h2>
+<section class="language-section">
+  <h2>Languages</h2>
 
-<div class="language-ring-container">
+  <div class="language-ring-container">
 
-  <div class="lang-ring">
-    <div class="circle c85">85%</div>
-    <p>English</p>
+    <div class="lang-ring">
+      <div class="circle c85">85%</div>
+      <p>English</p>
+    </div>
+
+    <div class="lang-ring">
+      <div class="circle c100">100%</div>
+      <p>Chinese</p>
+    </div>
+
+    <div class="lang-ring">
+      <div class="circle c25">25%</div>
+      <p>French</p>
+    </div>
+
   </div>
-
-  <div class="lang-ring">
-    <div class="circle c100">100%</div>
-    <p>Chinese</p>
-  </div>
-
-  <div class="lang-ring">
-    <div class="circle c25">25%</div>
-    <p>French</p>
-  </div>
-
-</div>
-
-
+</section>
