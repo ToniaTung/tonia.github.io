@@ -4,16 +4,31 @@ layout: default
 
 <div class="hero-container">
   <div class="hero-left">
-    <img class="hero-avatar" src="{{ site.author.avatar | relative_url }}" alt="avatar">
+
+    <!-- ✅ 強制指定你的實際照片路徑 -->
+    <img 
+      class="hero-avatar" 
+      src="{{ site.baseurl }}/images/profile.jpg" 
+      alt="Chiao-Jo (Tonia) Tung"
+    >
 
     <h1 class="hero-name">{{ site.author.name }}</h1>
     <p class="hero-title">{{ site.author.bio }}</p>
     <p class="hero-school">{{ site.author.location }}</p>
 
     <div class="hero-social">
-      {% if site.author.email %}<a href="mailto:{{ site.author.email }}">✉️</a>{% endif %}
-      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
-      {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+      {% if site.author.email %}
+        <a href="mailto:{{ site.author.email }}">✉️ Email</a>
+      {% endif %}
+
+      {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a>
+      {% endif %}
+
+      {% if site.author.linkedin %}
+        <!-- ✅ 直接吃完整 LinkedIn 網址 -->
+        <a href="{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
+      {% endif %}
     </div>
   </div>
 
