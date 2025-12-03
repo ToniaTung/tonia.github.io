@@ -279,3 +279,28 @@ $button-hover-bg-color: #1d4ed8 !default;
     #e5e7eb 90deg 360deg
   );
 }
+h2 {
+  font-size: 2.4rem !important;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+/* ✅ Skills & Hobbies 內部的子標題（Technical Skills / Hobbies） */
+.skills-hobby-grid h3 {
+  font-size: 1.6rem !important;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* ✅ Hero 右側標題（Bio 頁 About Me） */
+.hero-right h2 {
+  font-size: 2.4rem !important;
+  font-weight: 800;
+}
+
+/* ✅ Experience 頁的標題（防止被 theme 蓋掉） */
+.education-section h2,
+.language-ring-container h2 {
+  font-size: 2.4rem !important;
+  font-weight: 800;
+}
