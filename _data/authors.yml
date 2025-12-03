@@ -1,13 +1,18 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+tonia:
+  name: "Chiao-Jo (Tonia) Tung"
+  bio: "Student / Mechanical Engineering"
+  location: "University of Michigan"
+  email: "chiaojo@umich.edu"   # ← 換成你自己的
+
+  avatar: "tonia.jpg"          # ← 你現在用的那張大頭照檔名
+
+  # googlescholar: "https://scholar.google.com/citations?user=你的ID"
+  # pubmed: "https://pubmed.ncbi.nlm.nih.gov/?term=Chiao-Jo+Tung"
+
+  # ✅ 這裡「只填 LinkedIn 的 ID」，不要填整串網址
+  linkedin: "tonia-tung-4a6306218/"
 
 Name2 Name2:
   name        : "Name2 Name2"
