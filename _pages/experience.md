@@ -70,7 +70,7 @@ permalink: /experience/
     <div class="donut donut-25">
       <span>25%</span>
     </div>
-    <p>Japanese</p>
+    <p>French</p>
   </div>
 
 </div>
