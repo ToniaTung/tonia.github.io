@@ -279,12 +279,6 @@ $button-hover-bg-color: #1d4ed8 !default;
     #e5e7eb 90deg 360deg
   );
 }
-h2 {
-  font-size: 2.4rem !important;
-  font-weight: 800;
-  margin-bottom: 24px;
-}
-
 /* ✅ Skills & Hobbies 內部的子標題（Technical Skills / Hobbies） */
 .skills-hobby-grid h3 {
   font-size: 1.6rem !important;
@@ -298,29 +292,9 @@ h2 {
   font-weight: 800;
 }
 
-/* ✅ Experience 頁的標題（防止被 theme 蓋掉） */
-.education-section h2,
-.language-ring-container h2 {
-  font-size: 2.4rem !important;
-  font-weight: 800;
-}
 /* ================================
    🔧 Force Unified Section Titles
    ================================ */
-
-/* ✅ Experience Page Titles（全部等於 Education） */
-.education-section h2,
-.skills-hobby-grid h3,
-.skills-col h3,
-.hobby-col h3,
-.language-section h2,
-.language-ring-container h2,
-.page__content h2 {
-  font-size: 2.2rem !important;
-  font-weight: 700 !important;
-  margin-bottom: 18px !important;
-  letter-spacing: 0.5px;
-}
 
 /* ✅ About Me 本體 */
 .hero-right > h2 {
@@ -342,4 +316,33 @@ h2 {
 .hero-right h3 *,
 .hero-right h4 * {
   font-size: inherit !important;
+}
+.education-section h2,
+.lang-title,
+.language-ring-container h2,
+.page__content > h2 {
+  font-size: 1.6rem !important;   /* ✅ 這就是你現在 Hobbies 的大小 */
+  font-weight: 700 !important;
+  margin-bottom: 18px !important;
+}
+
+/* ✅ Skills & Hobbies Subtitles */
+.skills-hobby-grid h3,
+.skills-col h3,
+.hobby-col h3 {
+  font-size: 1.6rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+}
+
+/* ✅ 全站 h2 保底鎖死（防止被 theme 偷改） */
+h2 {
+  font-size: 1.6rem !important;
+  font-weight: 700 !important;
+}
+
+/* ✅ Hero 區塊的 About Me 維持最大（唯一例外） */
+.hero-right > h2 {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
 }
