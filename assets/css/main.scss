@@ -210,40 +210,72 @@ $button-hover-bg-color: #1d4ed8 !default;
    Language Rings (圓環百分比版)
 ================================ */
 
-.language-ring-container {
+.lang-title {
+  margin-top: 64px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.lang-donut-container {
   display: flex;
   justify-content: center;
   gap: 80px;
-  margin-top: 40px;
+  margin-top: 36px;
 }
 
-.lang-ring {
+.lang-donut-item {
   text-align: center;
+  font-weight: 500;
 }
 
-.circle {
-  border: none !important;
-  background: none !important;
-  width: 140px;
-  height: 140px;
+.donut {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  font-size: 28px;
-  font-weight: 700;
-  display: flex !important;
+  position: relative;
+  background: conic-gradient(
+    #b91c1c 0deg,
+    #b91c1c 0deg,
+    #e5e7eb 0deg 360deg
+  );
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
-  color: #111 !important;
 }
 
-.c85 {
-  background: conic-gradient(#e11d48 85%, #e5e5e5 0) !important;
+.donut::before {
+  content: "";
+  width: 86px;
+  height: 86px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
 }
 
-.c100 {
-  background: conic-gradient(#b91c1c 100%, #e5e5e5 0) !important;
+.donut span {
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111827;
 }
 
-.c25 {
-  background: conic-gradient(#9ca3af 25%, #e5e5e5 0) !important;
+/* ✅ 個別百分比控制 */
+.donut-85 {
+  background: conic-gradient(
+    #b91c1c 0deg 306deg,
+    #e5e7eb 306deg 360deg
+  );
+}
+
+.donut-100 {
+  background: conic-gradient(
+    #b91c1c 0deg 360deg
+  );
+}
+
+.donut-25 {
+  background: conic-gradient(
+    #b91c1c 0deg 90deg,
+    #e5e7eb 90deg 360deg
+  );
 }
