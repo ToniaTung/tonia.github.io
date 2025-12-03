@@ -23,7 +23,7 @@ repository               : "ToniaTung/toniatung.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Chiao-Jo (Tonia) Tung"
   bio              : "Student / Mechanical Engineering"
   location         : "University of Michigan"
