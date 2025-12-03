@@ -177,8 +177,8 @@ $button-hover-bg-color: #1d4ed8 !default;
 
 /* ===== Skills & Hobbies Two Columns ===== */
 .skills-hobby-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
   gap: 64px;
   margin-top: 24px;
 }
@@ -189,7 +189,7 @@ $button-hover-bg-color: #1d4ed8 !default;
 
 /* ===== Language Rings ===== */
 .language-ring-container {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   gap: 64px;
   margin-top: 32px;
@@ -214,4 +214,3 @@ $button-hover-bg-color: #1d4ed8 !default;
 .c85 { border-color: #e11d48; }
 .c100 { border-color: #b91c1c; }
 .c25 { border-color: #9ca3af; }
-
