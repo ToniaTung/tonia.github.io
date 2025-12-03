@@ -10,18 +10,28 @@ My name is **Chiao-Jo (Tonia) Tung**. I am currently a Master student at the **U
 
 ---
 
-## Interests
+<div class="hero-split">
 
-- Machine Learning
+<div class="hero-column">
+
+### Interests
+
+- Machine Learning  
 - Computer Vision  
 - Robotics & Mechatronic Systems  
 
----
+</div>
 
-## Education
+<div class="hero-column">
+
+### Education
 
 **M.S. in Mechanical Engineering**  
 University of Michigan, Ann Arbor  
 
 **B.S. in Biomechatronics Engineering**  
 National Taiwan University  
+
+</div>
+
+</div>
