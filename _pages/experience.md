@@ -11,36 +11,18 @@ permalink: /experience/
 <div class="edu-item">
   <div class="edu-icon">🎓</div>
   <div class="edu-content">
-    <h3>Ph.D. in Robotics</h3>
+    <h3>M.S. in Mechanical Engineering</h3>
     <p>University of Michigan</p>
-    <span>May 2025 – May 2030</span>
+    <span>Sept 2025 – May 2027</span>
   </div>
 </div>
 
 <div class="edu-item">
   <div class="edu-icon">🎓</div>
   <div class="edu-content">
-    <h3>M.S. in Robotics</h3>
-    <p>Carnegie Mellon University</p>
-    <span>August 2023 – May 2025</span>
-  </div>
-</div>
-
-<div class="edu-item">
-  <div class="edu-icon">🎓</div>
-  <div class="edu-content">
-    <h3>M.S. in Information Networking</h3>
-    <p>Carnegie Mellon University</p>
-    <span>August 2020 – May 2023</span>
-  </div>
-</div>
-
-<div class="edu-item">
-  <div class="edu-icon">🎓</div>
-  <div class="edu-content">
-    <h3>B.E. in Software Engineering</h3>
-    <p>University of Electronic Science and Technology of China</p>
-    <span>May 2016 – June 2020</span>
+    <h3>B.S. in Biomechatronics Engineering</h3>
+    <p>National Taiwan University</p>
+    <span>Sept 2021 – June 2025</span>
   </div>
 </div>
 
@@ -69,9 +51,10 @@ permalink: /experience/
 ### Hobbies
 
 <ul class="hobby-list">
-  <li>✍️ Calligraphy</li>
-  <li>🏓 Table Tennis</li>
-  <li>🚴 Biking</li>
+  <li>🏸 Squash</li>
+  <li>🎾 Tennis</li>
+  <li>✈️ Travel</li>
+  <li>⛷️ Ski</li>
 </ul>
 
 </div>
@@ -96,7 +79,7 @@ permalink: /experience/
 
 <div class="language-item">
   <div class="circle">25%</div>
-  <p>Japanese</p>
+  <p>French</p>
 </div>
 
 </div>
