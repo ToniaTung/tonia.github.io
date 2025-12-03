@@ -4,24 +4,21 @@ title: ""
 permalink: /experience/
 ---
 <!-- ========== Education ========== -->
-<h2> Education</h2>
+<section class="education-section">
+  <h2>Education</h2>
 
-<div class="edu-block">
   <div class="edu-item">
-    <h3>🎓 M.S. in Mechanical Engineering</h3>
-    <p>University of Michigan</p>
-    <p>Sept 2025 – May 2027</p>
+    <div class="edu-title">🎓 M.S. in Mechanical Engineering</div>
+    <div class="edu-school">University of Michigan</div>
+    <div class="edu-date">Sept 2025 – May 2027</div>
   </div>
 
   <div class="edu-item">
-    <h3>🎓 B.S. in Biomechatronics Engineering</h3>
-    <p>National Taiwan University</p>
-    <p>Sept 2021 – June 2025</p>
+    <div class="edu-title">🎓 B.S. in Biomechatronics Engineering</div>
+    <div class="edu-school">National Taiwan University</div>
+    <div class="edu-date">Sept 2021 – June 2025</div>
   </div>
-</div>
-
-<hr>
-
+</section>
 
 <!-- ========== Skills & Hobbies ========== -->
 <div class="skills-hobby-grid">
