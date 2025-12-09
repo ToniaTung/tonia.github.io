@@ -2,7 +2,6 @@
 title: "YOLO-VC: Layout-to-Image & SEM Registration Pipeline"
 excerpt: "Industry project contribution: layout-to-image conversion and SEM registration infrastructure for voltage-contrast analysis."
 collection: portfolio
-permalink: /projects/yolo-vc/
 
 project_start: 2024-06
 project_end: 2025-02
