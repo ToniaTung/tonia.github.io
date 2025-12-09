@@ -6,6 +6,7 @@ permalink: /projects/insect-detection/
 date: 2025-07-13
 venue: "ASABE Annual International Meeting"
 paperurl: "https://doi.org/10.13031/aim.202500146"
+pdfurl: /files/publications/insect-paper.pdf
 ---
 
 ## Introduction
