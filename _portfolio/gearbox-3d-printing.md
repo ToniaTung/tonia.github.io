@@ -6,8 +6,8 @@ permalink: /projects/3d-printed-gearbox/
 project_start: 2024-02
 project_end: 2024-06
 project_type: "Mechanical Design"
-venue: "Course Project – Machine Design"
 layout: single
+order: 3
 ---
 
 ## Overview
