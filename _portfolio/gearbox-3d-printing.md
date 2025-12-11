@@ -4,8 +4,8 @@ project_type: "Mechatronics / Mechanical Design"
 excerpt: "Mechanical design and fabrication of load-bearing systems using CAD and additive manufacturing."
 collection: portfolio
 permalink: /projects/3d-printed-gearbox/
-project_start: 2024-09
-project_end: 2024-12
+project_start: 2024-03-01
+project_end: 2024-06-01
 layout: single
 order: 4
 ---
@@ -31,11 +31,6 @@ The system consists of three major subsystems:
 - Optimized weight distribution for stability during competition tasks
 - Robot performance served as the primary evaluation criteria in competition
 - 
-## Triathlon Robot (Primary Competition System)
-- Designed the overall robot structure, mechanical layout, and actuation strategy
-- Integrated DC motor drive with custom gearbox to achieve sufficient output torque
-- Optimized weight distribution for stability during competition tasks
-- Robot performance served as the primary evaluation criteria in competition
 
 ## Key Contributions
 - Designed gearbox and truss structures using CAD tools
