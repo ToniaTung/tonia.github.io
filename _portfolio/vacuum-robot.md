@@ -3,8 +3,8 @@ title: "Autonomous Vacuum Robot (Mechatronics System Design)"
 excerpt: "Designed and built an autonomous mobile vacuum robot integrating mechanical design, PID control, sensor fusion, and embedded systems."
 collection: portfolio
 permalink: /projects/autonomous-vacuum-robot/
-project_start: 2025-02
-project_end: 2025-06
+project_start: 2024-09
+project_end: 2024-12
 project_type: "Mechatronics / Robotics"
 layout: single
 order: 3
