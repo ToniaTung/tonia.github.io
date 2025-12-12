@@ -141,8 +141,12 @@
           </li>
         {% endif %}
       {% endif %}     
-      {% if author.resume %}
-      <p><a href="{{ author.resume }}" target="_blank">📄 Resume</a></p>
+      {% if site.author.resume %}
+        <li>
+          <a href="{{ site.author.resume }}" target="_blank">
+            <i class="fas fa-file-alt"></i> Resume
+          </a>
+        </li>
       {% endif %}
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
