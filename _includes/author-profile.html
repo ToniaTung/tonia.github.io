@@ -3,9 +3,7 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
-{% if author.resume %}
-<p><a href="{{ author.resume }}" target="_blank">📄 Resume</a></p>
-{% endif %}
+
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
@@ -143,6 +141,9 @@
           </li>
         {% endif %}
       {% endif %}     
+      {% if author.resume %}
+      <p><a href="{{ author.resume }}" target="_blank">📄 Resume</a></p>
+      {% endif %}
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
       {% endif %}
