@@ -6,7 +6,6 @@ tonia:
   location: "University of Michigan"
   email: "chiaojo@umich.edu"   # ← 換成你自己的
   resume: "/files/resume.pdf"
-
   avatar: "tonia.jpg"          # ← 你現在用的那張大頭照檔名
 
   # ✅ 這裡「只填 LinkedIn 的 ID」，不要填整串網址
